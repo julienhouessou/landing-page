@@ -1,0 +1,28 @@
+body{font-family: 'Kanit', sans-serif;}
+ul{list-style: none; padding: 0; margin: 0; display: flex; gap:16px}
+p{text-align: justify;font-weight: lighter; }
+.sign-up-button button{color:#f9faf8; background-color: darkgoldenrod;text-align: center; border-radius:100px; padding: 5px 20px; border-color: #f9faf8; border-style: solid;}
+a{text-decoration: none; color: inherit;}
+.first-block img{width: 450px; height:auto}
+.info img{width: 200px; height: 150px}
+.logo{font-size: 24px; font-weight: bold;margin-right: auto;}
+.title{font-size: 48px; font-weight:bold;}
+.information-header{font-size: 36px; font-weight: 800; margin-bottom: 32px; text-align: center;}
+.information-image{border-radius: 80px;}
+.information-block{display: flex; gap: 16px;min-width: 0px; flex-wrap: wrap; justify-content: space-between; align-items: flex-start;}
+.subtitle{font-size: 24px;font-weight: 500;}
+.container{display: flex;flex-direction: column;}
+.header,.footer,.first-block{color: #f9faf8; background-color: rgb(1, 49, 1);}
+.header{padding: 20px 64px;}
+.footer{padding: 20px 64px;}
+.footer p{text-align: center;}
+.first-block{padding: 20px 64px; display: flex; justify-content: center; gap:32px}
+.second-block{padding: 20px 64px; flex-wrap: wrap;}
+.third-block{padding: 20px 64px;background-color: #e5e7eb;display: flex; flex-direction: column;}
+.fourth-block{padding: 20px 64px;background: darkgoldenrod;width: 480px;border-radius: 10px;box-shadow: 2px 4px 16px rgba(0,0,0,.2);display: flex; min-width: 0px; margin-left: auto; margin-right: auto;margin-top: 32px; margin-bottom: 32px; align-items: center; gap: 20px;}
+.quote p{font-style: italic; font-size: 26px; text-align: center;}
+.description{max-width: 200px;}
+.quoter{margin-left: auto;}
+.quoter p{font-weight: 600;}
+.intro{max-width: 450px; border-style: solid; border-color: darkgoldenrod; padding: 10px;}
+.info{text-align: center;}
